@@ -11,9 +11,6 @@ import java.util.List;
 public class MoviesResponse {
 
 
-    @XmlElement(name="page")
-    private int page;
-
     @XmlElement(name="per_page")
     private int perPage;
 
@@ -32,9 +29,18 @@ public class MoviesResponse {
         return page;
     }
 
-    public void setPage(int page) {
+    public void setAge(int page) {
         this.page = page;
     }
+
+    public void setCage(int page) {
+        this.page = page;
+    }
+
+    public void setChange(int page) {
+        this.page = page;
+    }
+
 
     public int getPerPage() {
         return perPage;
