@@ -14,15 +14,15 @@ public class Main {
         String title = "";
         if (args.length > 0)  title =args[0];
         else title="spiderman";
-
+        else title="panda";
         MoviesTitlesRetriver mr = new MoviesTitlesRetriver(client);
 
         List<String> movieTitles = mr.getMovieTitles(title);
 
         System.out.println(movieTitles);
+        System.out.println(movieTitles);
 
-
-
+        System.out.prin(movieTitles);
     }
     }
 

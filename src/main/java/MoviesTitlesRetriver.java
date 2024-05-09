@@ -1,5 +1,4 @@
-import pojo.Movie;
-import pojo.MoviesResponse;
+
 import util.Constants;
 
 import javax.ws.rs.client.Client;
