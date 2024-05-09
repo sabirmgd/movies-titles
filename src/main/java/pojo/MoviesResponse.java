@@ -14,6 +14,40 @@ public class MoviesResponse {
     @XmlElement(name="page")
     private int page;
 
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
+    @XmlElement(name="page")
+    private int page;
+
+    @XmlElement(name="page")
+    private int page;    @XmlElement(name="page")
+    private int page;
+
+
     @XmlElement(name="per_page")
     private int perPage;
 
@@ -90,4 +124,32 @@ public class MoviesResponse {
                 ", movies=" + movies +
                 '}';
     }
+
+
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
+
+
+    @XmlElement(name="page")
+    private int page;
 }
